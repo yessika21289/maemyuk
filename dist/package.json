@@ -1,0 +1,10 @@
+{
+  "name": "maemyuk",
+  "version": "1.0.0",
+  "description": "Pencarian tempat makan di Yogyakarta",
+  "author": "Yessika",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+}

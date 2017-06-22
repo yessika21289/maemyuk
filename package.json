@@ -9,7 +9,8 @@
     "build": "node build/build.js",
     "start": "node server.js",
     "presentation": "node presentation.js",
-    "lint": "eslint --ext .js,.vue src"
+    "lint": "eslint --ext .js,.vue src",
+    "deploy": "git subtree push --prefix dist heroku master"
   },
   "dependencies": {
     "clean-css": "^4.0.8",
